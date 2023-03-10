@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url(/css/header.css);
+@import url(/css/banner.css);
+@import url(/css/sobre-show.css);
+@import url(/css/line-up.css);
+@import url(/css/rodape.css);
+
+
+
+
+:root{
+    --cabecalho-cor:#4650BD;
+    --cor-branca:#FFFFFF;
+    --cor-verde: #338985;
+    --cor-verde-escuro: #008364;
+    --font-raleway: 'Raleway', sans-serif;
+    --font-calistoga: 'Calistoga', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+   
+}
+
+body,html{
+    box-sizing: border-box;
+    font-family: var(--font-raleway);
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+}
+
